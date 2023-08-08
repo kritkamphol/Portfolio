@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+}
+
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background: url(https://scx2.b-cdn.net/gfx/news/2016/57e3d4dbd417f.jpg);
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    width: auto;
+
+    flex-direction: column;
+
+}
+
+.title>h1 {
+    font-style: italic;
+    font-weight: 1000;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+.nav-menu {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: url(https://scx2.b-cdn.net/gfx/news/2016/57e3d4dbd417f.jpg);
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.nav-menu>ul {
+    display: flex;
+
+
+}
+
+.nav-menu>ul>li {
+    margin: 0 3rem;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/**content**/
+.myprofile {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: #F0FFFF;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Aboutme {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.profile {
+    display: flex;
+    height: 300px;
+    width: 50%;
+    //background-color: blanchedalmond;
+    margin-left: 100px;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.profile>h1 {
+    text-align: center;
+}
+
+.my-pic {
+    height: 300px;
+    width: 10%;
+    flex: 1;
+
+    margin-right: 50px;
+}
+
+.my-pic>img {
+    height: 300px;
+    display: flex;
+    margin-left: 80px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
+
+
+/*skill*/
+
+
+.skills-set {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background: url(https://elements-video-cover-images-0.imgix.net/files/135931984/590-Binary_Code_on_a_Computer_Screen.jpg?auto=compress&crop=edges&fit=crop&fm=jpeg&h=800&w=1200&s=4a06088256de76e0664ba64cbfab61a5);
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.skill {
+    display: flex;
+    margin-bottom: -30px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.skill h2 {
+    font-family: 'Trebuchet MS';
+    font-size: 50px;
+    color: #b2dcdc;
+
+}
+
+.skill-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.item1 {
+    width: 80%;
+    height: 80%;
+    background-color: bisque;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.item2 {
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item2>.htmlpic {
+    height: 1px;
+    width: 1px;
+}
+
+/**project**/
+.Myprojects {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color: darkorange;
+    flex-direction: column;
+
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.projects>h1 {
+    font-family: 'sans-serif';
+
+}
+
+.projectitems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
+    width: auto;
+    padding: 20px;
+    background-color: blue;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+
+}
+
+.item-1 {
+    height: 100%;
+    width: auto;
+    background-color: bisque;
+    border-radius: 20px;
+
+}
+
+.footer {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact {
+    display: flex;
+    height: auto;
+    width: 300px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+
+.contact>h1 {
+    text-align: center;
+}
